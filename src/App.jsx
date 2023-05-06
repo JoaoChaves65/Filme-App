@@ -1,18 +1,15 @@
-import { Link, Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+
+import { Navbar } from './components/Navbar'
+
 import './App.css'
 
 export default function App() {
   return (
     <div>
-      <nav className="navbar">
-        <h2>
-          <Link to="/">Dados Filmes</Link>
-        </h2>
-        <Link to="/movie/1">Movie</Link>
-        <Link to="/search">Search</Link>
-      </nav>
+      <Navbar />
       <h2>Data Movies</h2>
-      <Outlet/>
+      <Outlet />
     </div>
   )
 }
