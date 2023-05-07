@@ -8,7 +8,6 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <h2>Data Movies</h2>
       <Outlet />
     </div>
   )

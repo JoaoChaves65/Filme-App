@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <nav className="navbar">
             <h2>
-                <Link to="/"><BiCameraMovie /> Dados Filmes</Link>
+                <Link to="/"><BiCameraMovie /> Data Movies</Link>
             </h2>
             <form>
                 <input type="text" placeholder="Busque um filme" />
